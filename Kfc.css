@@ -1,0 +1,313 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    width: 100%;
+    height: 150px;
+}
+#kfcname{
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 130px;
+    float: left;
+}
+h4{
+    float: left;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#h42{
+    margin-left: 35px;
+}
+#h43{
+    margin-left: 800px;
+    font-size: 25px;
+}
+#h43::before{
+    content:url('/assets/images/Account_Icon.svg');
+    margin-right: 10px;
+}
+#bucket{
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#money{
+    font-size: 20px;
+    margin-top:55px;
+    margin-left: 15px;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    background-color:#202124;
+}
+#h3{
+    padding-top: 30px;
+    margin-left:250px;
+    color: white;
+    float: left;
+    font-size: 17px;
+}
+#start{
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 3px solid red;
+    background-color: red;
+    color:white;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+#start:hover{
+    background-color: rgb(161, 8, 8);
+}
+#main1{
+    margin-top: 24px;
+    width: 100%;
+}
+#main1_image{
+    width: 100%;
+}
+#main2{
+    width: 100%;
+    height:950px;
+    margin-top: -4px;
+}
+hr{ 
+    margin-left: 400px;
+    margin-top: -20px;
+    margin-right: 120px;
+}
+#browse_categories{
+    padding-top: 100px;
+    margin-left: 250px;
+}
+#parent_image1{
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 85%;
+    height: 600px;
+    float: left;
+}
+.child_image1{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    font-size: 15px;
+    background-color:aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    outline: none;
+}
+.image1{
+    width:300px;
+    border-radius: 5px;
+}
+.h3_image1{
+    padding-left: 50px;
+    margin-top: 30px;
+}
+#footer{
+    width: 100%;
+    height: 1300px;
+    background-color:#202124;
+}
+#parent_red_block{
+    width: 100px;
+    height: 50px;
+    margin-left: 250px
+}
+.red_block{
+    width: 18px;
+    height: 50px;
+    background-color: red;
+    margin-left: 10px;
+    float: left;
+}
+#exclusive{
+    margin-left: 260px;
+    margin-top: 80px;
+    color: white;
+}
+#view{
+    color: white;
+    margin-left: 1200px;
+    margin-top: -30px;
+}
+#parent_cards{
+    width: 1150px;
+    height: 500px;
+    margin-left: 260px;
+    margin-top: 70px;
+    color: white;
+}
+.card1{
+    width: 320px;
+    height: 500px;
+    float: left;
+    background-image: linear-gradient(red 60%,white 40%);
+    padding-left: 20px;
+    margin-left: 30px;
+    border: 2px solid #202124;
+    border-radius: 15px;
+    transition: all 1s;
+    
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+#image2{
+    margin-top: 5px;
+    width: 320px;
+}
+#offer{
+    margin-top: -10px;
+    font-size: 10px;
+    margin-left: 70px;
+    color: white;
+}
+#free{
+    font-size: 30px;
+    color: white;
+}
+#chicken{
+    margin-left: 18px;
+    margin-top: 10px;
+    color: rgb(213, 22, 22);
+}
+#apply{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius:50px;
+    margin-top: 20px;
+    background-color: white;
+}
+#apply:hover{
+    background-color: black;
+    color: white;
+}
+.parent_white_blocks{
+    width: 250px;
+    height: 50px;
+    margin-left: 5px;
+}
+.white_block{
+    width: 30px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+}
+.h1_card1{
+    margin-left: 120px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+#h1_card11{
+    margin-left: 35px;
+    margin-top: 25px;
+    color: white;
+    font-size: 30px;
+}
+#h3_card2{
+    margin-left: 50px;
+    margin-top: 25px;
+} 
+#add{
+    margin-top: 20px;
+    color: rgb(213, 22, 22);
+}
+#h1_card3{
+    margin-top: 20px;
+    margin-left: 115px;
+    font-size: 30px;
+}
+#h1_card13{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+#h3_card3{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+p{
+    color:black;
+}
+#upto{
+    margin-top: 80px;
+    color: rgb(213, 22, 22);;
+}
+#kfc_footer{
+    width: 110px;
+    margin-top: 250px;
+    margin-left: -1300px;
+}
+#parent_footer2{
+    width: 50%;
+    height: 250px;
+    margin-top: -200px;
+    margin-left: 290px;
+    margin-top: -55px;
+    float: left;
+    color: white;
+}
+
+#column1{
+    width: 16.25%;
+    float: left;
+}
+#column2{
+    width:16.25%;
+    float: left;
+    margin-left: 200px;
+    margin-top: -110px
+}
+#column3{
+    width:16.25% ;
+    float: left;
+    margin-left: 50px;
+    margin-top: -110px;
+
+}
+#column4{
+    width: 16.25%;
+    float: left;
+    margin-left: 50px;
+    margin-top: -110px;
+}
+#ending{
+    color: white;
+    margin-top: 200px;
+    margin-left: 550px;
+    font-size: 15px;
+}
+#play{
+    margin-left: 1050px;
+    margin-top: -270px
+}
+#apple{
+    margin-left: 200px;
+    margin-top: -50px;
+    float: left;
+}
+#parent_iat{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+#applestore,#insta,#twitter{
+    margin-left: 10px;float: left;
+    margin-top: 40px;
+
+}
